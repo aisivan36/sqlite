@@ -12,9 +12,11 @@ import 'data/sqlite/sqlite_repository.dart';
 
 Future<void> main() async {
   _setupLogging();
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // initialize repository
   final repository = SqliteRepository();
   await repository.init();
-  WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp(
     repository: repository,
   ));
