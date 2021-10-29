@@ -31,6 +31,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  moor_generator: ^4.4.1
 
   build_runner: ^2.1.1
   json_serializable: ^4.1.4
