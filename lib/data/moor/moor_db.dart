@@ -1,6 +1,7 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 import 'package:moor_flutter/moor_flutter.dart';
+import 'package:recipes/data/models/recipe.dart';
 
 part 'moor_db.g.dart';
 
